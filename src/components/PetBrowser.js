@@ -9,7 +9,7 @@ class PetBrowser extends React.Component {
     return this.props.pets.map(pet => (
       <Pet
       pet={pet}
-      key={pet.id}
+      id={pet.id}
       
       // type={pet.type}
       // gender={pet.gender}
